@@ -13,7 +13,7 @@ const path = require ('path')
 // 데이터를 주고받을 때 필수적으로 등록할 것 !! 
 
 const cors = require ('cors')
-
+ 
 // 정적인 파일을 쓸 때 이 안에 있는 애를 쓸게요
 // 주소 뒤에 운영체제에 맞게 더해주세요 __dirname(현재 내가 있는 곳)에서
 // build라는 폴더 안에 있는 static파일을 사용할게요 ()

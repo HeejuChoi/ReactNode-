@@ -10,7 +10,7 @@ let conn = mysql.createConnection({   // 이코드가 실행되는 순간 DB로 
     host : "127.0.0.1",
     user : "root",
     password : "gjaischool",
-    port : "3306",   // 기본적으로 이 번호로 설정됨
+    port : "3306",   // 기본적으로 이 번호로 설정됨 
     database : "nodejs_db"
 })
 
