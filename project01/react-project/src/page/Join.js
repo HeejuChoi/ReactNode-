@@ -15,7 +15,7 @@ const Join = () => {
     console.log('handleJoin')
 
     // form태그가 다른 페이지로 이동하지 못하도록 막는 기능 
-    event.preventDefault()
+    event.preventDefault() 
 
     // current는 ref가 있는 태그가 뭔지 말해주는 것? / target같은 느낌 
     console.log(idRef.current.value)

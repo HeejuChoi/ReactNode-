@@ -11,7 +11,7 @@ import Join from './page/Join';
 // 라우터
 import {Routes, Route} from 'react-router-dom';
 
-
+ 
 
 function App() {
   // 1. 고정되어 있는 Header를 하나 제작해라 // 레이아웃

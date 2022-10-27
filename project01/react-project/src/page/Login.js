@@ -18,7 +18,7 @@ const Login = () => {
   let userData = {
     id : idRef.current.value,
     pw : pwRef.current.value
-  }
+  } 
   
   // axios를 이용해서 데이터 서버로 보내기
   axios.post('http://127.0.0.1:3001/loginData',{

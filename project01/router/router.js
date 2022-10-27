@@ -14,7 +14,7 @@ let conn = mysql.createConnection({   // 이코드가 실행되는 순간 DB로 
     database : "nodejs_db"
 })
 
-router.post('/joinData', (req, res) => {
+router.post('/joinData', (req, res) => { 
     console.log('joinData 라우터')
     console.log(req.body.user)
 
